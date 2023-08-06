@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navBar{
+    height: 576px;
+    background-color: #f0fff0;
+}
+.nav-bar{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-logo{
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.nav-bar a{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.nav-bar2{
+    margin-top: 30px;
+}
+
+#sing-in{
+    color: #FFFFFF;
+    padding: 10px 15px 10px 15px;
+    border-radius: 33px;
+    background-color:#21B573;
+}
+
+.nav-bar-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+.nav-bar-section1{
+    width: 40%;
+    font-weight: bold;
+}
+
+.nav-p1{
+    color: red;
+}
+
+.nav-bar-section1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+.text-highlight{
+    color: #21B573;
+}
+.nav-p2{
+    color: #6C6B6B;
+}
+
+.get-started{
+    padding: 10px 20px 10px 20px;
+    border-radius: 33px;
+    background-color:#21B573;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#nav-bar-section1-5{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+#nab-button{
+    margin-top: 50px;
+}
+.nav-bar-section2{
+    width: 40%;
+    
+    
+}
+
+img{
+    height: 400px;
+    margin-top: 60px;
+    border-radius: 18px;
+    /* box-shadow: 0 0 20px rgb(240, 240, 240); */
+}
+
+
+#sections2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.box{
+    height: 270px;
+    width: 270px;
+    background-color: #F8FFFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box2{
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgb(226, 226, 226);
+    
+}
+
+.box1-img{
+    font-size: 85px;
+    margin-bottom: 10%;
+}
+.box2-img{
+    font-size: 85px;
+    margin-bottom: 10%;
+}
+.box3-img{
+    font-size: 85px;
+    margin-bottom: 10%;
+}
+.box4-img{
+    font-size: 85px;
+    margin-bottom: 10%;
+}
+
+.online-courses{
+    text-align: center;
+    font-weight: bold ;
+}
+
+.sections3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+.section3-box{
+    height: 433px;
+    width: 370px;
+    background-color: #F8FFFB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    box-shadow: 0 0 40px #d6d6d6;
+}
+
+.section3-img{
+    height: 234px;
+    width: 331px;
+    border-radius: 11px;
+}
+
+.section3-img1{
+    background-image: url("section3-img1.jpg");
+    background-size: cover;
+}
+.section3-img2{
+    background-image: url("section3-img2.png");
+    background-size: cover;
+}
+.section3-img3{
+    background-image: url("section3-img3.jpg");
+    background-size: cover;
+}
+
+.section2-text{
+    height: 100px;
+    width: 331px;
+}
+
+.buy-course{
+    font-weight: normal;
+    padding: 5px 10px 5px 10px;
+    border-radius: 33px;
+    background-color:#21B573;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.section3-footer{
+    display: flex;
+    width: 331px;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.buy-button{
+    margin-top: 10px;
+}
+
+.testimonial{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #6C6B6B;
+    font-weight: bold;
+
+}
+
+.testimonial-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-image: url("Testimonial.jpg");
+    background-size: cover;
+    background-color: #21B573;
+}
+
+.section4{
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.section4-box a{
+    color: white;
+    text-decoration: none;
+}
+
+.section4-box ul a{
+    display: flex;
+}
+
+.section4-box ul p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section4-box{
+    margin-top: 70px;
+}
+
+.footer-section{
+    height: 320px;
+    background-color: #282531;
+    color: white;
+    
+}
+
+footer{
+    height: 50px;
+    background-color: #282531;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
